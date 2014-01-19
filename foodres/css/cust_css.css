@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+#canteen {
+	width: 700px;
+	float:left;
+}
+
+#canteen h1{
+	font-size:50px;
+	font-weight:300;
+	font-family:'Segoe Script';
+	color: #666;
+	
+	margin:0;
+	padding:0;
+}
+
+#canteen #canteen_links{
+	float:left;
+	width:800px;
+	background:#FFF;
+	margin:0;
+	padding:2px;
+	border-bottom:double #900;
+}
+
+#canteen #canteen_links ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#canteen #canteen_links li#canlink a{
+	font-family:'Century Gothic';
+	font-size:18px;
+	text-decoration: none;
+	color:#900;
+}
+
+#canteen #canteen_links li#canlink a:hover{
+	color:#F90;
+}
+
+#canteen #canteen_links ul li#canlink{
+	float:left;
+	padding:3px;
+	padding-left:20px;
+	text-align:left;
+}
+
+#canteen_links ul ul {
+	position: absolute;
+	visibility: hidden;
+	margin-top: 0;
+	background: #F90;
+			
+	-webkit-border-radius: 50px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 50px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 50px;
+	border-top-left-radius: 0;
+
+}
+#canteen_links ul li:hover ul {
+	visibility: visible;
+}
+/************************************/
+<!--outside border-->
+
+#canteen_links ul li ul{
+	
+}
+#canteen_links ul li ul li#stallname{
+	width:150px;
+	margin: 0;
+	padding:3px;
+	text-align:center;
+}
+#canteen_links ul li ul li#stallname:hover{
+	background:#FFF;
+}
+
+#canteen_links ul li ul li#stallname a#stall{
+	font-family:'Century Gothic';'
+	font-weight: bold;
+	font-size:14px;
+	text-decoration: none;
+	color:#C00;
+}
+#canteen_links li:hover ul li#stallname a#stall:hover {
+	color: #F60;
+}
+/***********************************/
+#canteen_info h1{
+	margin:0;
+	padding:0;
+	
+	font-family: "Century Gothic";
+	font-size:26px;
+	color: #900;
+}
+
+#canteen_stall #item_links {
+	background:#FFF;
+	margin:0;
+	padding:0;
+}
+
+#canteen_stall #item_links a{
+	text-decoration: none;
+	color: #900;
+	font-family: 'Century Gothic';
+	font-size:16px;
+	
+	margin:0;
+	padding:0;
+}
+
+#canteen_stall #item_links ul{
+	list-style:none;	
+	
+	margin:0;
+	padding:0;
+}
+
+#canteen_stall #item_links li{
+	margin: 0px;
+	padding:5px;
+	display: inline;	
+}
+
+#canteen_stall #stall_link{
+	float:left;
+	width:800px;
+	background:#FFF;
+}
+
+#canteen_stall #stall_link ul{
+	list-style:none;
+}
+
+#canteen_stall #stall_link a{
+	font-family:'Century Gothic';
+	font-size:12px;
+	text-decoration: none;
+	color:#FFF;
+}
+
+#canteen_stall #stall_link li{
+	background:#FFCC66;
+	float:left;
+	padding:3px 10px;
+	border-left:1px solid #FFF;
+	
+	border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-webkit-border-radius: 15px 15px 0px 0px;
+
+}
+#canteen_stall #stall_link li:hover{
+	background:#900;
+}
+#canteen_stall #stall_table{
+	background:#900;
+	width:800px;
+	/*height:450px;*/
+	/*margin-left:20px;*/	
+}
+
+#canteen_stall #stall_table table{
+	background:#FFF;
+}
+
+#canteen_stall #stall_table th{
+	background:#900;
+	font-family:"Century Gothic";
+	font-weight:400;
+	font-size:14px;
+	color:#FFF;
+	text-align:center;
+	
+	width:200px;
+	padding:2px;
+}
+
+#canteen_stall #stall_table td{
+	background:#900;
+	font-family:"Century Gothic";
+	font-weight:400;
+	font-size:12px;
+	color:#FFF;
+	text-align:center;
+	
+	width:200px;
+	padding:3px;
+}
+
+#canteen_stall #stall_table td a{
+	text-decoration: none;
+	text-align:center;
+	color:#FFF;
+
+	color:#FC3;
+}
+/****************/

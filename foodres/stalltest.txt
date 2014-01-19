@@ -1,0 +1,49 @@
+<div id=canteen>
+            <h1>Canteens</h1>
+            <div id=canteen_links>
+                <ul>
+            		<li class=canlink><a class=can href='stalls.php?can=IDS'>IDS</a>
+                        <ul>
+                        <?php 
+                            $links = $stalls->getStallbyLoc('IDS');
+                            getStalls($links);
+                        ?>
+                        </ul>
+                    </li>
+                    <li class=canlink><a class=can href='stalls.php?can=CBAA'>CBAA</a>
+                        <ul>
+                        <?php 
+                            $links = $stalls->getStallbyLoc('CBAA');
+                            getStalls($links);
+                        ?>
+                        </ul>
+                    </li>
+                    <li class=canlink><a class=can href='stalls.php?can=CED'>CED</a>
+                        <ul>
+                        <?php 
+                            $links = $stalls->getStallbyLoc('CED');
+                            getStalls($links);
+                        ?>
+                        </ul>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+		
+		 <div id=login>
+            <div id=login_form>
+                <form action="login.php" method="POST" name="ContactForm">
+                    <table cellpadding="3">
+                        <tr><th></th></tr>
+                        <tr><td><input type='name' name='user_id' placeholder="Username" size=25/></td></tr>
+                        <tr><td><input type='password' name='password' placeholder="Password" size=25/></td></tr>
+                        <tr><td><input class=submit type="submit" value="Log in" /></td></tr>
+                        <tr><td><p>Not yet registered? Register <a href=customerreg_form.php>here</a>.</p></td></tr>
+                     </table>
+                </form>
+            </div>
+        </div>
+        
+       <div id=canteen_about>
+    	<?php dispCanInfo();?>
+    	</div>

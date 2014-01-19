@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(../img/backg.jpg);
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+}
+
+#header{
+	background:rgba(102,102,102,0.5);
+	position:fixed;
+	margin: 0;
+	width:100%;
+	height:160px;
+	padding:5px 10px;
+	border-bottom:2px dotted #990000;
+}
+
+#header #frslogo{
+	padding:20px;
+}
+
+#container{
+	clear:both;
+	position:absolute;
+	top:190px;
+	margin: 0;
+	padding: 0;
+	width:100%;
+}
+
+#vnavwrapper {
+	position:absolute;
+	width: 80px;
+	margin: 0 10px;
+	padding: 0 30px 0 20px;
+}
+
+#vnavlinks a{
+	text-decoration:none;
+	color:#FFFFFF;
+	margin:0;
+	padding:0;
+
+}
+
+#vnavlinks a:hover{
+	color: #C00;
+}
+
+#vnavlinks ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+#vnavlinks li{
+	font-family: 'Cordia New';
+	font-size: 16px;
+	text-align:center;
+	
+	margin-top: 5px;
+	padding:16px;
+	
+	background:#900;
+	width: 65px;
+	height: 65px;
+	border-radius:100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100$;	
+
+}
+#vnavlinks li p, #navlinks li img{
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+#vnavlinks li:hover{
+	background:rgba(255,204,102,0.6);
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+
+}
+
+#vnavlinks img:hover {
+	opacity: 0.5;
+}
+
+
+#content_wrapper{
+	position:relative;
+	left:230px;
+}
+
+#content{
+	width:1100px;
+}
+
+#footer{
+	clear:both;
+	background:#900;
+	height:40px;
+	margin-top: 20px;
+}
+
+#footer p {
+	text-align:center;
+	color:#FC9;
+	padding:7px;
+}
+/*********************/
+
+#login{
+	background:;
+	float:right;
+	width:230px;
+	margin-right:20px;
+	padding:30px;
+}
+
+#login #login_form{
+	margin:0;
+	padding:0px;
+}
+
+#login #login_form p, #login #login_form td{
+	font-family:'Century Gothic';
+	font-size:14px;
+	color:#FFF;	
+}
+
+#login #login_form td
+/****************/
+input{   
+    padding: 6px;  
+    outline: 0; 
+    background: #FFFFFF;  
+	border: solid 1px #F90;  
+	font-family:'Century Gothic';
+	font-size:16px;
+}  
+  
+  
+input:hover,input:focus{
+    box-shadow: #900 0px 0px 4px;  
+    -moz-box-shadow: #900 0px 0px 4px;  
+    -webkit-box-shadow: #900 0px 0px 4px;  
+}  
+  
+
+
+

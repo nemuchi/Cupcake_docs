@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+#canteen {
+	background:rgba(255,255,255,0.3);
+	margin:0px auto;
+	width: 700px;
+	float:left;
+	border:thin solid #CCC;
+	min-height:200px;
+	max-height:450px;
+	padding:12px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 2px 30px rgba(226, 168, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px rgba(226, 168, 50, 0.75);
+	box-shadow:         0px 2px 30px rgba(226, 168, 50, 0.75);
+}
+
+#canteen h1{
+	float:left;
+	font-size:100px;
+	font-weight:300;
+	font-family:'Segoe Script';
+	color: #666;
+	margin:0;
+	padding:0;
+}
+
+#canteen #canteen_links{
+	float:left;
+	margin-top:10px;
+	margin-right:20px;
+	padding-left:10px;
+}
+
+#canteen #canteen_links ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+
+#canteen #canteen_links li.canlink a{
+	font-family:'Century Gothic';
+	font-size:16px;
+	text-decoration: none;
+	color:#900;
+}
+
+#canteen #canteen_links li.canlink a:hover{
+	color:#F90;
+}
+
+#canteen #canteen_links ul li.canlink{
+	float:left;
+	padding:3px;
+	padding-left:20px;
+	text-align:right;
+}
+
+#canteen_links ul ul {
+	position: absolute;
+	visibility: hidden;
+	margin-top: 0;
+	background: #FC3;
+			
+	-webkit-border-radius: 50px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 50px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 50px;
+	border-top-left-radius: 0;
+
+}
+#canteen_links ul li:hover ul {
+	visibility: visible;
+}
+/************************************/
+<!--outside border-->
+
+#canteen_links ul li ul{
+	
+}
+#canteen_links ul li ul li#stallname{
+	width:150px;
+	margin: 0;
+	padding:3px;
+	text-align:center;
+	z-index: 100000;  
+}
+#canteen_links ul li ul li#stallname:hover{
+	/*background:#FFF;*/
+}
+
+#canteen_links ul li ul li#stallname a#stall{
+	font-family:'Century Gothic';'
+	font-weight: bold;
+	font-size:12px;
+	text-decoration: none;
+	color:#C00;
+}
+#canteen_links li:hover ul li#stallname a#stall:hover {
+	color: #F60;
+}
+
+/***********************************/
+#canteen_stall{
+	clear:both;
+	margin:0px;
+}
+
+#canteen_info h1{
+	/*margin-bottom:10px;*/
+	margin:0;
+	padding-left:20px;
+	font-family: "Segoe Script";
+	font-size:20px;
+	font-weight:300;
+	color: #900;
+}
+
+#canteen_stall #item_links {
+	float:right;
+	background:rgba(255,255,255,0.5);
+	margin:0;
+	padding:0;
+}
+
+#canteen_stall #item_links a{
+	text-decoration: none;
+	color: #900;
+	font-family: 'Century Gothic';
+	font-size:16px;
+	
+	margin:0;
+	padding:0;
+}
+
+#canteen_stall #item_links ul{
+	list-style:none;	
+	
+	margin:0;
+	padding:0;
+}
+
+#canteen_stall #item_links li{
+	margin: 0px;
+	padding:5px;
+	display: inline;	
+}
+
+#canteen_stall #stall_link{
+	margin-top:10px;
+	padding-right:100px;
+	float:right;
+}
+
+#canteen_stall #stall_link ul{
+	list-style:none;
+}
+
+#canteen_stall #stall_link a{
+	font-family:'Century Gothic';
+	font-size:12px;
+	text-decoration: none;
+	color:#FFF;
+}
+
+#canteen_stall #stall_link li{
+	background:#FFCC66;
+	float:left;
+	padding:3px 10px;
+	border-left:1px solid #FFF;
+	
+	border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-webkit-border-radius: 15px 15px 0px 0px;
+
+}
+#canteen_stall #stall_link li:hover{
+	background:#900;
+}
+
+/****************/
